@@ -1,0 +1,135 @@
+@import "./utilities.css";
+
+.round2-container {
+  width: 100%;
+  height: 100vh;
+  background: #002a4c;
+  background: linear-gradient(116.63deg, #002a4c 5.17%, #1a5678 90.77%);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+nav {
+  width: 95vw;
+  height: 100px;
+  margin: 5px auto;
+}
+
+nav .lefty img {
+  width: 80px;
+}
+nav .righty {
+  margin-top: 1.5rem;
+}
+nav .righty a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-size: 1.3rem;
+  font-weight: normal;
+  position: relative;
+  cursor: pointer;
+}
+
+nav .righty a:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -5px;
+  background: #fff;
+  height: 2px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+nav .righty a:hover:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
+.round2-content {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.round2-content h3 {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.round2-content h1 {
+  font-size: 5rem;
+  color: #edb17b;
+  font-weight: 800;
+}
+
+.round2-content .round2-tagline {
+  margin: auto;
+  width: 80vw;
+  text-align: center;
+}
+.round2-content p {
+  color: #c4c4c4;
+}
+
+.btn-download {
+  padding: 0.9rem 1.5rem;
+  background: #edb17b;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.btn-download:hover {
+  background: transparent;
+  border: 3px solid #edb17b;
+  border-radius: 10px;
+  color: #edb17b;
+}
+
+.info {
+  background-color: #c4c4c4;
+  width: 90vw;
+  height: 400px;
+  margin: 20px auto;
+}
+.info p {
+  color: black;
+  padding: 30px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.info .collect {
+  width: 80vw;
+  margin: 30px auto;
+}
+
+.collect input {
+  width: 30%;
+  height: 50px;
+}
+
+.btn-submit2 {
+  padding: 0.9rem 1.5rem;
+  background: #fff;
+  border-radius: 10px;
+  color: #000;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.btn-submit2:hover {
+  background: transparent;
+  border: 3px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+}

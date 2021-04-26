@@ -1,0 +1,20 @@
+.roundB-tagline {
+  width: 80vw;
+  margin: 30px auto;
+}
+.graph-view {
+  width: 80vw;
+  margin: 240px auto;
+}
+.pie {
+  width: 400px;
+  height: 400px;
+  border-radius: 150px;
+  margin-right: 100px;
+}
+.choices {
+  width: 350px;
+  height: 400px;
+  margin-left: 100px;
+  background-color: #c4c4c4;
+}
